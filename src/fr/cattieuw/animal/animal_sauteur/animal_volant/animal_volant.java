@@ -11,7 +11,9 @@ public class animal_volant extends animal_sauteur {
 	public animal_volant(String nom, String race, int poids, int age, String couleur, boolean griffes,
 			boolean membre_extensible, boolean longue_extremite, int longueur_pateAR, boolean ailes, boolean rapace,
 			int nbPlume) {
+
 		super(nom, race, poids, age, couleur, griffes, membre_extensible, longue_extremite, longueur_pateAR);
+
 		this.ailes = ailes;
 		this.rapace = rapace;
 		this.nbPlume = nbPlume;

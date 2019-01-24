@@ -11,7 +11,9 @@ public class animal_sauteur extends Animal {
 
 	public animal_sauteur(String nom, String race, int poids, int age, String couleur, boolean griffes,
 			boolean membre_extensible, boolean longue_extremite, int longueur_pateAR) {
+
 		super(nom, race, poids, age, couleur, griffes);
+
 		this.membre_extensible = membre_extensible;
 		this.longue_extremite = longue_extremite;
 		this.longueur_pateAR = longueur_pateAR;

@@ -10,7 +10,9 @@ public class animal_nageur extends Animal {
 
 	public animal_nageur(String nom, String race, int poids, int age, String couleur, boolean griffes,
 			boolean pelagique, boolean mammifere, int nbEcaille) {
+
 		super(nom, race, poids, age, couleur, griffes);
+
 		this.pelagique = pelagique;
 		this.mammifere = mammifere;
 		this.nbEcaille = nbEcaille;
